@@ -332,6 +332,7 @@ button:focus {
 /*--------------------*/
 
 #mu-featured-slider {
+	background-repeat:no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
@@ -578,6 +579,7 @@ button:focus {
 	text-align:center;
 }
  .backgroundImage{
+	 
 	 margin-right: auto;
 	 margin-left: auto;
 	 display: block;
