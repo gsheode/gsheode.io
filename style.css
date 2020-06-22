@@ -288,7 +288,11 @@ button:focus {
 	margin-top: 4px;
 }
 
+.navbar-default .mu-menu {
+	background-color:#53c6c6;
+}
 .navbar-default .mu-menu li a {
+	
 	color: #fff;
 	font-size: 15px;
 	font-weight: 400;
@@ -341,6 +345,9 @@ button:focus {
 	width: 100%;
 	background-image: url("assets/images/backgroundImage.jpg")
 }
+
+
+
 
 
 
