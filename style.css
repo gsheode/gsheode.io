@@ -288,8 +288,10 @@ button:focus {
 	margin-top: 4px;
 }
 
-.navbar-default .mu-menu ::after {
+@media only screen and (max-width: 600px) {
+	.navbar-right {
 	background-color:#53c6c6;
+}
 }
 .navbar-default .mu-menu li a {
 	
@@ -327,7 +329,7 @@ button:focus {
 .navbar-default .mu-menu li a:focus::after,
 .navbar-default .navbar-nav > .active > a:focus::after, 
 .navbar-default .navbar-nav > .active > a:hover::after {
-	transform: scale(1);
+	 transform: scale(1); 
 }
 
 
@@ -346,7 +348,19 @@ button:focus {
 	background-image: url("assets/images/backgroundImage.jpg")
 }
 
-
+@media only screen and (max-width: 320px) {
+	#mu-featured-slider {
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center center;
+		display: inline;
+		float: left;
+		width: 100%;
+		background-image: url("assets/images/backgroundImageSmall.jpg")
+	
+}
+}
 
 
 
@@ -1153,16 +1167,6 @@ button:focus {
 	transition: all 0.5s;
 }
 
-.abc
-{
-	background-image: url("./Elegant_Background-14.jpg/512px-Elegant_Background-14.jpg");
-	background-repeat: no-repeat;
-    height:160px;
-    padding-left:280px;
-    padding-top:50px;
-    width:470px;
-    color: #eaeaea;
-}
 
 
 
