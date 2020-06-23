@@ -348,7 +348,7 @@ button:focus {
 	background-image: url("assets/images/backgroundImage.jpg")
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1900px) {
 	#mu-featured-slider {
 		
 		background-image: url("assets/images/backgroundImageSmall.jpg");
