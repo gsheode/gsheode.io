@@ -350,13 +350,7 @@ button:focus {
 
 @media only screen and (max-width: 320px) {
 	#mu-featured-slider {
-		background-repeat:no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: center center;
-		display: inline;
-		float: left;
-		width: 100%;
+		
 		background-image: url("assets/images/backgroundImageSmall.jpg")
 	
 }
