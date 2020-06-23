@@ -351,7 +351,8 @@ button:focus {
 @media only screen and (max-width: 900px) {
 	#mu-featured-slider {
 		
-		background-image: url("assets/images/backgroundImageSmall.jpg")
+		background-image: url("assets/images/backgroundImageSmall.jpg");
+		image-rendering: pixelated;
 	
 }
 }
