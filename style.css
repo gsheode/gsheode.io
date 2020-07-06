@@ -685,13 +685,31 @@ and (max-width : 812px)
 
 .mu-card-spacing{
 	margin-bottom: 15px;
-	background-color:#f8f8f8
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	
 }
 .mu-card-spacing h5{
 	margin-bottom: 20px;
 	margin-top:10px;
 	font-size: 20px;
 }
+.mu-card-spacing h4{
+	margin-bottom: 20px;
+	margin-top:10px;
+	font-size: 18px;
+}
+.mu-card-spacing {
+    
+   left: -100px;
+    
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
 
 
    }
